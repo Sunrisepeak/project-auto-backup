@@ -1,0 +1,8 @@
+xname = "project-auto-backup"
+
+xim = {
+    ["git-autosync"] = "",
+    xppcmds = {
+        [[git-autosync add . --time "* * * 1 *"]]
+    }
+}

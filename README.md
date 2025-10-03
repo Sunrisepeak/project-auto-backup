@@ -6,7 +6,13 @@ project auto backup by git-autosync (xscript
 
 > run in project root directory
 
-**step1: install deps(git-autosync) & auto config**
+**step0: get this project / 获取项目**
+
+```bash
+git clone https://github.com/Sunrisepeak/project-auto-backup.git
+```
+
+**step1: install deps(git-autosync) & auto config / 安装依赖并自动配置**
 
 ```
 xlings install
@@ -15,7 +21,7 @@ xlings install
 > - [download xlings](https://xlings.d2learn.org/documents/quick-start/one-click-install.html)
 > - default sync project when 01:00 in everyday / 默认每天凌晨1点同步
 
-**step2: add your git url to `.git-autosync` / 添加git仓库url**
+**step2: add your git url to `.git-autosync` / 添加git仓库url到`.git-autosync`文件**
 
 - support https and ssh
 
